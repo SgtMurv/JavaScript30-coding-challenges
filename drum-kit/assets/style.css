@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/12/14/13/creeper-ellie-mitchell-shepherds-bush.jpg)
+    bottom center;
   background-size: cover;
 }
 
@@ -10,7 +11,6 @@ html {
   padding: 0;
   font-family: sans-serif;
 }
-
 .keys {
   display: flex;
   flex: 1;
@@ -20,7 +20,7 @@ html {
 }
 
 .key {
-  border: 0.4rem solid black;
+  border: 0.4rem solid white;
   border-radius: 0.5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -35,8 +35,8 @@ html {
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #a255e1;
+  box-shadow: 0 0 1rem #a255e1;
 }
 
 kbd {
@@ -48,5 +48,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: #ffc600;
+  color: #a255e1;
 }
